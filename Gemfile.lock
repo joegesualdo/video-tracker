@@ -29,6 +29,11 @@ GEM
       i18n (= 0.6.1)
       multi_json (~> 1.0)
     arel (3.0.2)
+    backbone-on-rails (1.0.0.0)
+      eco
+      ejs
+      jquery-rails
+      rails (>= 3.1)
     builder (3.0.4)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
@@ -39,7 +44,12 @@ GEM
     coffee-script-source (1.6.3)
     commonjs (0.2.6)
     diff-lcs (1.2.4)
-    ejs (1.0.0)
+    eco (1.0.0)
+      coffee-script
+      eco-source
+      execjs
+    eco-source (1.1.0.rc.1)
+    ejs (1.1.1)
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
@@ -83,10 +93,6 @@ GEM
       activesupport (= 3.2.13)
       bundler (~> 1.0)
       railties (= 3.2.13)
-    rails-backbone (0.7.2)
-      coffee-script (~> 2.2.0)
-      ejs (~> 1.0.0)
-      railties (>= 3.1.0)
     railties (3.2.13)
       actionpack (= 3.2.13)
       activesupport (= 3.2.13)
@@ -142,13 +148,14 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  backbone-on-rails
   coffee-rails (~> 3.2.1)
+  eco
   jquery-rails
   less-rails
   peepcode
   pg
   rails (= 3.2.13)
-  rails-backbone
   rspec-rails
   sass-rails (~> 3.2.3)
   sqlite3

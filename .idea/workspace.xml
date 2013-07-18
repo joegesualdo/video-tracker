@@ -2,25 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="908af669-586a-490d-8c13-570f68293bf8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/video-tracker.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/backbone/models/screencast.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/backbone/views/screencast.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/backbone/collections/screencasts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/backbone/views/screencasts_index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/backbone/templates/screencasts/screencast.jst.eco" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/welcome.js.coffee" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/video-tracker.iml" afterPath="$PROJECT_DIR$/.idea/video-tracker.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/welcome.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/welcome.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/backbone/views/screencast.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/backbone/views/screencast.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="video-tracker.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="908af669-586a-490d-8c13-570f68293bf8" time="1374102851277" ignored="false" />
+    <file path="/screencast.jst.eco" changelist="908af669-586a-490d-8c13-570f68293bf8" time="1374105431396" ignored="false" />
+    <file path="/screencast.js" changelist="908af669-586a-490d-8c13-570f68293bf8" time="1374105346035" ignored="false" />
+    <file path="/Gemfile" changelist="908af669-586a-490d-8c13-570f68293bf8" time="1374105718322" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,10 +53,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="screencasts.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="screencasts.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/backbone/collections/screencasts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="3" selection-start="666" selection-end="666" vertical-scroll-proportion="0.40828404">
+            <state line="10" column="46" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="screencast.jst.eco" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/backbone/templates/screencasts/screencast.jst.eco">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="19" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -79,7 +83,16 @@
       <file leaf-file-name="screencast.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/backbone/views/screencast.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="3" selection-start="526" selection-end="526" vertical-scroll-proportion="0.0">
+            <state line="1" column="13" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="5" selection-start="181" selection-end="181" vertical-scroll-proportion="0.17730497">
               <folding />
             </state>
           </provider>
@@ -97,7 +110,7 @@
       <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="24" selection-start="720" selection-end="720" vertical-scroll-proportion="0.0">
+            <state line="16" column="20" selection-start="695" selection-end="695" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -122,17 +135,19 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/app/assets/javascripts/backbone/models/screencast.js" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/backbone/views/screencast.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/welcome.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/backbone/collections/screencasts.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/backbone/templates/screencasts/screencast.jst.eco" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/backbone/views/screencast.js" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="89" />
+    <option name="x" value="37" />
     <option name="y" value="22" />
     <option name="width" value="1920" />
-    <option name="height" value="970" />
+    <option name="height" value="548" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -285,6 +300,70 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="video-tracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="video-tracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backbone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="video-tracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="video-tracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backbone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="screencasts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -585,7 +664,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="89" y="22" width="1920" height="970" extended-state="0" />
+    <frame x="37" y="22" width="1920" height="548" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -682,20 +761,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/backbone/models/screencast.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="3" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/backbone/views/screencast.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="3" selection-start="526" selection-end="526" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/welcome.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -703,16 +768,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/backbone/collections/screencasts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="24" selection-start="720" selection-end="720" vertical-scroll-proportion="0.0">
+        <state line="10" column="46" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/backbone/collections/screencasts.js">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/backbone/models/screencast.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="3" selection-start="666" selection-end="666" vertical-scroll-proportion="0.40828404">
+        <state line="4" column="3" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/backbone/templates/screencasts/screencast.jst.eco">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="19" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="20" selection-start="695" selection-end="695" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/backbone/views/screencast.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="13" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="5" selection-start="181" selection-end="181" vertical-scroll-proportion="0.17730497">
           <folding />
         </state>
       </provider>

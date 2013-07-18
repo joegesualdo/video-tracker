@@ -1,4 +1,5 @@
 var ScreencastView = Backbone.View.extend({
+    template : JST['screencasts/screencast'],
     tagName : "li",
     events : {
         "click" : "toggleWatched"
@@ -13,6 +14,7 @@ var ScreencastView = Backbone.View.extend({
         }
     },
     render : function(){
-        return $(this.el).text(this.model.get('title'));
+        return $(this.el).html(this.template());
+
     }
 });
