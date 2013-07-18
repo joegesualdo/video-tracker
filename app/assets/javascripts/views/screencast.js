@@ -14,7 +14,7 @@ var ScreencastView = Backbone.View.extend({
         }
     },
     render : function(){
-        return $(this.el).html(this.template());
+        return $(this.el).html(this.template({greeting: "WOOOO"}));
 
     }
 });

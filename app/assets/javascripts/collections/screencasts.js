@@ -1,6 +1,7 @@
 var Screencasts = Backbone.Collection.extend({
     model : Screencast
 });
+
 var screencasts = new Screencasts();
 
 screencasts.url = "/videos.json";
