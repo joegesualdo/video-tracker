@@ -1,1 +1,9 @@
-<h1><%= @greeting %></h1>
+<ul>
+  <h4><%= @model.get('title') %></h4>
+  <li>The screencast title is: <%= @model.get('title') %></li>
+  <li>The video link is: <%= @model.get('link') %></li>
+  <li>The image link is: <%= @model.get('image') %></li>
+  <a href=<%=@model.get('link')%>><img src=<%=@model.get('image')%>/></a>
+
+</ul>
+

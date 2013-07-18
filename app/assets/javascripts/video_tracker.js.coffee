@@ -3,7 +3,9 @@ window.VideoTracker =
   Collections: {}
   Views: {}
   Routers: {}
-  initialize: -> alert 'Hello from Backbone!'
+  initialize: ->
+    new VideoTracker.Routers.Screencasts()
+    Backbone.history.start(pushState: true)
 
 $(document).ready ->
   VideoTracker.initialize()
